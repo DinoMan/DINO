@@ -63,3 +63,5 @@ To perform translation on a folder containing test images just run:
 ```
 python test.py -i <input folder> -g <gpu id> -o <results folder> -c <checkpoint> --direction <AtoB or BtoA>
 ```
+## Pretrained Models
+Pretrained models coming soon...
