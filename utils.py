@@ -9,7 +9,7 @@ import numpy as np
 
 
 def save_img(img, path):
-    save_img = np.squeeze(125 * img.squeeze().cpu().detach().numpy() + 125).astype(np.uint8)
+    save_img = np.squeeze(127 * img.squeeze().cpu().detach().numpy() + 127).astype(np.uint8)
     if not os.path.exists(os.path.dirname(path)):
         os.makedirs(os.path.dirname(path))
 
